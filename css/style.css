@@ -1,0 +1,124 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+}
+.top-bg{
+  background: linear-gradient(#1c5380, #06365f);
+  height: 300px;
+}
+
+.loginbutton {
+  position:relative;
+  left: 100px;
+  bottom: 15px;
+  background: linear-gradient(#4a72b2, #334e7a);
+  border: 1px rgba(20,20,20,0.6) solid;
+  border-radius: 2px;
+  height: 40px;
+  color: lightgrey;
+  font-size: 14px;
+  width: 100px;
+  padding-bottom: 10px;
+}
+
+.loginimage {
+  position: relative;
+  left: -10px;
+  bottom: -3px;
+  width: 20px;
+  height: 20px;
+}
+.container {
+  /*position: absolute;
+  top: 20%;
+  left: 22%;*/
+  width: 915px;
+  height: 510px;
+  margin: 0 auto;
+  margin-top: -183px;
+  padding: 0;
+  box-sizing: border-box;
+  height:
+}
+
+.left {
+  float: left;
+  margin: 0 auto;
+}
+
+img.brand {
+  /*display: inline-block;*/
+  position:relative;
+  left: 20px;
+  top: 20px;
+}
+
+.right {
+  text-align: center;
+  padding: 0;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.frame {
+  position: relative;
+  background-image: url("../img/frame.png");
+  background-repeat:no-repeat;
+  text-align: left;
+  left: 60px;
+  width: 500px;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  top: 60px;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+  margin: 0 10px;
+}
+
+h2 {
+  width: 250px;
+  margin-left: 40px;
+  position: relative;
+  top: 30px;
+  color: darkblue;
+}
+
+p {
+  width: 390px;
+  line-height: 1.80em;
+  font-size: 0.9em;
+  margin-left: 40px;
+  position: relative;
+  top: 30px;
+}
+
+.badge {
+  position:relative;
+  top: 45px;
+  left: 38px;
+  margin: 0 20px 0 0;
+}
+
+ul {
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a, span {
+  text-decoration: none;
+  color: grey;
+  font-size: 16px;
+}
